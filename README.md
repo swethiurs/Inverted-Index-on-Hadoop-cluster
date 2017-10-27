@@ -1,0 +1,2 @@
+# Inverted-Index-on-Hadoop-cluster
+Implemented a Java code which consists of two classes. Mapper class takes text file/s as input and create a word- documentID key-value pairs as input. The Reducer class takes the output of Mapper class as input and produces an inverted index for the input file. The google cloud platform is setup with master and sub nodes to create a cluster and the code is executed on the created cluster(Hadoop).
